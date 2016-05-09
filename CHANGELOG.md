@@ -37,6 +37,8 @@ to [sourceforge feature requests](https://sourceforge.net/p/jabref/features/) by
 - Fixed [#1271](https://github.com/JabRef/jabref/issues/1271): Authors with compound first names are displayed properly 
 - Fixed: Selecting invalid jstyle causes NPE and prevents opening of style selection dialog
 - Fixed: Move linked files to default directory works again
+- Fixed [1245](https://github.com/JabRef/jabref/issues/1245): Empty jstyle properties can now be specified as ""
+- Fixed [#1364](https://github.com/JabRef/jabref/issues/1364): Windows: install to APPDATA directory for non-admin users
 
 ### Removed
 - Removed possibility to export entries/databases to an `.sql` file, as the logic cannot easily use the correct escape logic
